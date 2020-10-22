@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+ul, li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.main-nav a {
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 11px;
+}
+
+.main-nav li {
+    margin-right: 30px;
+}
+
+.header {
+    height: 150px;
+    line-height: 150px;
+    background: #7e0019;
+}
+
+.header-sections_button {
+    margin-left: 20px;
+    float: left;
+}
+
+.section-btn {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.section-btn .text {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.header-sections_button .hamburger {
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.header-sections_button .hamburger:before {
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+
+.header-sections_button .hamburger:after {
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+
+.header-logo {
+    float: left;
+    margin: 0 calc(50% - 400px) 0 calc(50% - 300px);
+}
+
+.header-logo a {
+    display: block;
+    width: 306px;
+}
+
+.main-logo_info {
+    line-height: 20px;
+    margin-top: -60px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 11px;
+    text-align: center;
+}
+
+.header-lang {
+    float: left;
+}
+
+.langs {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+
+.langs span {
+    opacity: .5;
+}
+
+.header-lang .club {
+    padding: 10px 20px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #b30c1d;
+
+}
+
+
+.second-nav {
+    line-height: 60px;
+    height: 60px;
+    border-bottom: 1px solid grey;
+}
+
+.second-nav a {
+    font-size: 14px;
+}
+
+.content h2 a {
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+    color: #900022;
+    font-size: 18px;
+    text-align: left;
+}
+
+.epidemic-item {
+    padding: 10px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+.epidemic-label {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: black;
+
+}
+
+.epidemic-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.epidemic-number {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.epidemic-img {
+    display: inline-block;
+}
+
+.epidemic-increment {
+    display: inline-block;
+    color: #900022;
+}
